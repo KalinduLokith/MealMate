@@ -12,7 +12,7 @@ implement an Android application using Kotlin that assists users with meal prepa
           Clicking on the "Add Meals to DB" button will save the details of a few meals in a local SQLite database using the Room library.
           The meal information can be hardcoded within the application.
           You need to create an appropriate database and populate it with the provided meal data.
-          This task is divided into two parts: creating the database (10 marks) and populating it with data (10 marks).
+          This task is divided into two parts: creating the database  and populating it with data .
     
     3.Search for Meals By Ingredient:
 
