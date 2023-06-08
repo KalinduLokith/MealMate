@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mealplate2"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".SearchByMeals">
+
+
+    <EditText
+        android:id="@+id/search_meal_textBox"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="abc"
+        android:background="#EDFFD9"
+        android:inputType="text"
+        android:textColor="#00072E"
+        android:textSize="26sp" />
+
+
+    <Button
+        android:id="@+id/search_meal_button"
+        android:layout_width="209dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Search Meals"
+        android:textStyle="bold" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
